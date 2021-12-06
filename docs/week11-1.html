@@ -1,0 +1,63 @@
+
+<html>
+<style>
+.div1
+{
+ border: 10px solid darkblue;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.div2 {
+  position: absolute;
+  border: 1px solid pink;
+  top: 0px;
+  left: 100px;
+  height: 100px;
+  background-color: black;
+}
+.div3
+{
+	position: fixed;
+  border: 1px solid blue;
+  background-color: pink;  
+  width: 400px;
+  height: 200px;
+  bottom: 20%;
+  left: 50%;
+}
+.div4
+{
+	position: sticky;
+  border: 1px solid red;
+  top: 0px;
+  background-color: red;
+  width: 90%;
+  margin: auto;
+}
+.word
+{
+	color: white;
+}
+</style>
+<body>
+	<div class="div4">
+		<p>sticky div</p>
+	</div>
+	<div class="div1">
+		<p>relative div</p>
+			<div class="div2">
+				<p class="word">absolute div</p>
+			</div>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <div class="div3">
+		<p>fixed div</p>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
