@@ -1,0 +1,102 @@
+<html>
+<head>
+<style>
+div.left_side {
+height: 90vh;
+overflow: auto;
+width: 20%;
+float: left;
+background: lightgray;
+}
+
+div.main {
+	height: 93vh;
+	overflow: auto;
+	float: left;
+	background: orange;
+	width: 80%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap:wrap; 
+}
+
+div.item {
+	float: left;
+	width: 1000px;
+	margin: 10%;
+	border: 10px solid white;
+	background: lightgray;
+	border-radius: 10px;
+	text-align: center;
+	height: 250px;
+}
+div.item:hover 
+{
+	box-shadow: 0px 0px 5px lightblue;
+}
+
+body {
+margin: 0px;
+}
+#footer {
+	position: fixed;
+	background: lightgray;
+    bottom: 0px;
+	width: 100%;
+	padding: 1px;
+	margin: 0px;
+	flex: 0 0 60px;
+}
+
+#footer p {
+	color: white;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="left_side">
+	<p>ＭＥＮＵ<br>
+		--------------------------------------------
+		
+		<p><a href="#introduce";class="mid">INTRODUCE</a></p>
+		<br><br><br><br><br><br>
+		<p>&nbsp;<a href="#cast";class="mid">CAST</p>
+		<br><br><br><br><br><br>
+		<p><a href="#plot";class="mid">PLOT</a></p>
+		<br><br><br><br><br><br>
+		<p><a href="#video";class="mid">MOVIE</a></p>
+		<br><br><br><br><br><br>
+	</p>
+</div>
+<div class="main">
+	<div class="item">
+		<p id= "introduce";>ＩＮＴＲＩＤＵＣＥ<br><br><br><br>Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow "runners" for a shot at escape.</p>	
+	</div>
+	<div class="item">
+		<p id = "cast">ＣＡＳＴ<br><br><br><br>Dylan O'Brien as Thomas, the last male to enter the Glade
+Kaya Scodelario as Teresa, the first and only female Glader
+Aml Ameen as Alby, the first to enter the Glade and the leader of the Gladers
+Thomas Brodie-Sangster as Newt, second-in-command of the Gladers
+Ki Hong Lee as Minho, the head runner
+Will Poulter as Gally
+Patricia Clarkson as Ava Paige, the head of WCKD
+Blake Cooper as Chuck, a very young Glader</p>	
+	</div>
+	<div class="item">
+		<p id = "plot">ＰＬＯＴ<br><br><br>A boy wakes up in an elevator with no recollection of his name, where he comes from, or where he is. As he emerges from the earth, he finds himself in a community of boys, living in a glade. As the boy slowly starts unearthing memories, such as his name, Thomas, he also finds out more sinister things from the other boys about the place he's landed. The boys are held prisoners within the center of a gigantic maze, and for three years they've been looking for a way out. Now it's up to Thomas to find that way, but the road isn't going to be easy, as any who dare enter the maze finds himself hunted by the Grievers.</p>	
+	</div>
+	<div class="item">
+		<p id = "vedio">ＭＯＶＩＥ<br><br><iframe width="560" height="150" src="https://www.youtube.com/embed/4rZfw2iTHLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>	
+	</div>
+    
+	
+	
+</div>
+<div id="footer">
+  <p> ＴＨＥ　ＭＡＺＥ　ＲＵＮＮＥＲ</p>
+</div>
+</body>
+</html>
+
+//改movie 的 id
