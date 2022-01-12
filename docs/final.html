@@ -1,10 +1,25 @@
 <html>
 <head>
 <style>
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+
+
+
 div.left_side {
-height: 90vh;
+height: 100%;
 overflow: auto;
-width: 20%;
+width: 15%;
 float: left;
 background: lightgray;
 }
@@ -21,8 +36,8 @@ div.main {
 }
 
 div.item {
-	float: left;
-	width: 1000px;
+	float: right;
+	width: 800px;
 	margin: 10%;
 	border: 10px solid white;
 	background: lightgray;
@@ -56,8 +71,8 @@ margin: 0px;
 </head>
 <body>
 <div class="left_side">
-	<p>ＭＥＮＵ<br>
-		--------------------------------------------
+	<p id ="top">ＭＥＮＵ<br>
+		--------------------------------
 		
 		<p><a href="#introduce";class="mid">INTRODUCE</a></p>
 		<br><br><br><br><br><br>
@@ -69,9 +84,13 @@ margin: 0px;
 		<br><br><br><br><br><br>
 	</p>
 </div>
-<div class="main">
+
+  
+
 	<div class="item">
-		<p id= "introduce";>ＩＮＴＲＩＤＵＣＥ<br><br><br><br>Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow "runners" for a shot at escape.</p>	
+		<p id= "introduce";>ＩＮＴＲＩＤＵＣＥ<br><br><br><br>Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow "runners" for a shot at escape.
+			<br><br><a href="#top";class="mid">ｍｅｎｕ</a>
+		</p>	
 	</div>
 	<div class="item">
 		<p id = "cast">ＣＡＳＴ<br><br><br><br>Dylan O'Brien as Thomas, the last male to enter the Glade
@@ -81,22 +100,31 @@ Thomas Brodie-Sangster as Newt, second-in-command of the Gladers
 Ki Hong Lee as Minho, the head runner
 Will Poulter as Gally
 Patricia Clarkson as Ava Paige, the head of WCKD
-Blake Cooper as Chuck, a very young Glader</p>	
+Blake Cooper as Chuck, a very young Glader
+<br><br><a href="#top";class="mid">ｍｅｎｕ</a>
+</p>	
 	</div>
 	<div class="item">
-		<p id = "plot">ＰＬＯＴ<br><br><br>A boy wakes up in an elevator with no recollection of his name, where he comes from, or where he is. As he emerges from the earth, he finds himself in a community of boys, living in a glade. As the boy slowly starts unearthing memories, such as his name, Thomas, he also finds out more sinister things from the other boys about the place he's landed. The boys are held prisoners within the center of a gigantic maze, and for three years they've been looking for a way out. Now it's up to Thomas to find that way, but the road isn't going to be easy, as any who dare enter the maze finds himself hunted by the Grievers.</p>	
+		<p id = "plot">ＰＬＯＴ<br><br><br>A boy wakes up in an elevator with no recollection of his name, where he comes from, or where he is. As he emerges from the earth, he finds himself in a community of boys, living in a glade. As the boy slowly starts unearthing memories, such as his name, Thomas, he also finds out more sinister things from the other boys about the place he's landed. The boys are held prisoners within the center of a gigantic maze, and for three years they've been looking for a way out. Now it's up to Thomas to find that way, but the road isn't going to be easy, as any who dare enter the maze finds himself hunted by the Grievers.
+<br><br><a href="#top";class="mid">ｍｅｎｕ</a>
+		</p>	
 	</div>
 	<div class="item">
-		<p id = "vedio">ＭＯＶＩＥ<br><br><iframe width="560" height="150" src="https://www.youtube.com/embed/4rZfw2iTHLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>	
+		<p id = "vedio">ＭＯＶＩＥ<br><br><iframe width="560" height="150" src="https://www.youtube.com/embed/4rZfw2iTHLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br><a href="#top";class="mid">ｍｅｎｕ</a>
+		</p>	
 	</div>
     
-	
-	
+	<div class="bg">
+        <img 
+		src="./maze.jpg"
+			width="300px";
+		>
+    </div>
+
 </div>
 <div id="footer">
   <p> ＴＨＥ　ＭＡＺＥ　ＲＵＮＮＥＲ</p>
 </div>
 </body>
 </html>
-
-//改movie 的 id
